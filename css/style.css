@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-image: url('../images/homePage.jpeg'); */
+    background-color: #023c73;
+    background-size: contain;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* For the Artists Menu */
+.art1{
+    display: flex;
+    padding: 10px;
+}
+
+.art1 h3{
+    font-size: 13px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.art1 span img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/*>>>>>>>>*/
+/* .menu-header img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+} */
+
+
+#musWeb{ /* THIS IS FOR THE 'TUNE PLAY' IN THE HEADER */
+    font-size: 40px;
+    color: #fff;
+    padding-left: 450px;
+    font-family: cursive;
+}
+
+#sign-log a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 1.3em;
+    color: #000;
+}
+
+#sign-log a:hover{
+    background-color: #0e7de6;
+    color: #fff;
+}
+
+.content { /* THIS IS FOR THE FONT IN THE BODY */
+    font-weight: lighter;
+    font-family: calibri;
+}
+
+/* THIS IS FOR THE IMAGE OF THE SONGS IN THE HOME PAGE*/
+#eve{
+    width: 210px;
+    cursor: pointer;
+}
+
+#eve-lrwb{
+    height: 210px;
+    cursor: pointer;
+}
+/* >>>>> */
+
+.playlists{ /* THIS IS FOR ALL THE PLAYLISTS IN THE HOME PAGE */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7.3px;
+    margin: auto;
+}
+
+.item{ /* THIS IS FOR EACH OF THE SONG IN THE HOME PAGE */
+    text-align: center;
+    flex: 1 1 calc(20% - 10px); /* 25% per item */
+    padding-top: 10px;
+    
+}
+
+
+.item h3{
+    cursor: pointer;
+}
+
+.kpop-rnb{ /* THIS IS FOR THE HEADING OF EACH OF THE PLAYLIST IN THE HOME PAGE */
+    font-size: 2em;
+    color: aqua;
+    padding-top: 10px;
+}
+
+/* THIS IS FOR THE FOOTER */
+footer p{
+    margin-top: 20px;
+   /*color: #2c3640;*/
+   text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+} 
+/* >>>> */
+
+/* FOR THE ARTISTS MENU */
+.menu-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: aqua; 
+    padding: 10px 20px;
+    border: none;
+    /* color: #ffffff; */
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #023c73;
+    transition: left 0.3s;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    border: 1px solid #ccc;
+}
+.menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.menu.active {
+    left: 0;
+}
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exit-button {
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+/* >>>>> */
+
+.content {
+    padding: 20px;
+}
+
+
+/*  FOR THE AUDIO */
+.audio-container {
+    margin: 100px auto 0;
+    padding: 10px;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.custom-audio {
+    width: 100%; /* Make the audio player responsive */
+    border-radius: 4px;
+}
+
+
+
+/* ---->>> THIS IS FOR THE PROFILE ICON  */
+.profile-container {
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+    display: none; 
+}
+
+.profile {
+    background-color: aqua;
+    /*color: rgb(1, 1, 49);*/
+    width: 190px;
+    height: 250px;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prof1 {
+    color: #000;
+    text-decoration: none;
+padding: 10px;
+}
+
+.profile .prof1:hover {
+    color: #0e7de6;
+}
+
+.exitbutton {
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#profile-content {
+    position: relative;
+    margin-top: -100px;
+    font-family: calibri;
+}
+
+.profile-container {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    position: fixed;
+    top: 0;
+    right: 80px;
+    width: 250px;
+    height: 100%;
+    transition: right 0.3s;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    border: 1px transparent #ccc;
+    display: none;
+    margin-top: 20px;
+}
+
+.profile-toggle:checked + .profile-container + .profile-pic {
+    display: block;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hide the checkbox */
+.profile-toggle {
+    display: none;
+}
+/*  >>>>>>*/
