@@ -1,0 +1,217 @@
+body {
+   /* background-image: url('../images/home\ image.png');
+    background-size: 110%; /* Adjust the percentage to make the image larger or smaller 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay; */
+    margin: 0;
+    padding: 0;
+    background-color: #242a4e; 
+    height: 100vh;   
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 1.3em;
+    margin-left: 250px;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li{
+    margin-left: 50px;
+}
+
+header {
+    display: flex;
+    color: #fff;
+    font-family: calibri;
+    align-items: center; 
+    height: 15vh;
+   /* background-color: blue; */
+}
+
+header h2{
+    font-size: 2em;
+    padding-left: 40px;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul li a:hover{
+    color: #f0c040; 
+}
+
+#padlock-signup{
+    display: flex;
+    margin-left: 235px;
+    margin-top: 10px;
+}
+
+#padlock{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+}
+
+#padl{
+   padding-left: 15px;
+   padding-top: 15px;
+}
+
+#signUp{
+    background-color: #fff;
+    color: blue;
+    padding: 10px 30px 10px 30px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#active{
+    border-bottom: 3px solid #f0c040;
+    width: 40px;
+    display: inline-block;
+}
+
+.ay-om-ti-da {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#wiz {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+main{
+    height: 65vh;
+    /*background-color: aqua;*/
+}
+
+main section{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 65px;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.left-right-arr{
+    background-color: #9ddaec;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    cursor: pointer;
+} 
+
+footer{
+height: 20vh;
+}
+
+footer img{
+    margin-top: -70px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Play button*/
+#play-btn {
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background-color: #0051ff;
+    width: 60px; 
+    height: 60px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%; /* Position it vertically in the middle of the image */
+    left: 50%; /* Position it horizontally in the middle of the image */
+    transform: translate(-50%, -50%); /* Center the button exactly */
+    /* z-index: 1;  Ensure the button is on top of the image */
+}
+
+#play-btn:hover{
+    background-color: #9ddaec;
+    color: #0051ff;
+} 
+
+/* Ayra Starr and other artists */
+#ayra{
+    font-weight: bold;
+}
+
+#bloo{
+    margin-top: -88px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+#bloo-tiwa{
+    margin-top: -88px;
+    color: #f0c040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+#bloo-dan{
+    margin-top: -66px;
+    color: #f70505;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+#sama{
+    color: #f0c040;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-top: 0;
+}
+
+#influ{
+    color: #e66006;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+#sama-tiwa{
+    color: #f70505;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-top: 0;
+}
+
+#ay-st{
+    color: #fff;
+    padding-left: 60px;
+    font-family: 'Lucida Handwriting', cursive;  /* OR 'Segoe Script' */
+    font-size: 12px;
+}
+
+#essence{
+    font-family: calibri;
+    color: #fd6a08;
+    margin-top: -45px;
+    text-align: center;
+}
