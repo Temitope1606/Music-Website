@@ -18,11 +18,11 @@ $music_picture = '';
 *{
     margin: 0;
     padding: 0;  
-    background-color: #023c73;
+    background-color: #242a4e;
 }
 
     #playlists{ /* THIS IS FOR PLAYLISTS */
-        background-color: #023c73;
+        background-color: #242a4e;
         max-height: 650px; /* Adjust this value to control the height of the scrollable area */
         overflow-y: auto;
         padding-right: 10px; /* Add padding to avoid overlapping scrollbar */
@@ -41,7 +41,9 @@ $music_picture = '';
 
     #play-list img{
         width: 35px;
+        height: 35px;
         border-radius: 10px;
+        object-fit: cover;
     }
 
     #title{
@@ -128,7 +130,9 @@ $music_picture = '';
 
 .current-img{
     width: 350px;
+    height: 350px;
     margin:10px;
+    object-fit: cover;
 }
 
 .current-song{
